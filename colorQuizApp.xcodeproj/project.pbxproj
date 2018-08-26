@@ -12,6 +12,7 @@
 		FE3562722132732B0079AF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3562702132732B0079AF22 /* Main.storyboard */; };
 		FE3562742132732C0079AF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3562732132732C0079AF22 /* Assets.xcassets */; };
 		FE3562772132732C0079AF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3562752132732C0079AF22 /* LaunchScreen.storyboard */; };
+		FE356281213277F10079AF22 /* colorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE356280213277F10079AF22 /* colorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FE3562732132732C0079AF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3562762132732C0079AF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE3562782132732C0079AF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE356280213277F10079AF22 /* colorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				FE35626C2132732B0079AF22 /* AppDelegate.swift */,
 				FE35626E2132732B0079AF22 /* ViewController.swift */,
 				FE3562702132732B0079AF22 /* Main.storyboard */,
+				FE356280213277F10079AF22 /* colorViewController.swift */,
 				FE3562732132732C0079AF22 /* Assets.xcassets */,
 				FE3562752132732C0079AF22 /* LaunchScreen.storyboard */,
 				FE3562782132732C0079AF22 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE356281213277F10079AF22 /* colorViewController.swift in Sources */,
 				FE35626F2132732B0079AF22 /* ViewController.swift in Sources */,
 				FE35626D2132732B0079AF22 /* AppDelegate.swift in Sources */,
 			);
