@@ -23,6 +23,15 @@ class ViewController: UIViewController {
         colorB = Int(arc4random() % 256)
         colorLabel.text = "R=\(colorR), G=\(colorG), B=\(colorB)"
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextvc = segue.destination as! colorViewController
+        nextvc.colorR = colorR
+        nextvc.colorG = colorG
+        nextvc.colorB = colorB
+        
+    }
+    
 
     @IBAction func returnTop(segue: UIStoryboardSegue) {
     }
